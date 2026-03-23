@@ -6,8 +6,8 @@ public class refMetodos {
 
 
     public static void main(String[] args) {
-//        Function<Integer, String> convert  = String::valueOf;
-//        String res = convert.apply(50);
+        Function<Integer, String> convert  = String::valueOf;
+        String res = convert.apply(50);
 //
 //        System.out.println(res);
 
@@ -16,9 +16,8 @@ public class refMetodos {
 
         Runnable saludo = per::saludo;
         saludo.run();
-//        System.out.println(saludo);
+        System.out.println(saludo);
 ///  Devuelve-> esta saludando: Hernan
     }
-//
 
 }

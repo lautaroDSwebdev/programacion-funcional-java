@@ -12,11 +12,8 @@ public class SaludandoAnimal {
                 cifra = 5;
                 System.out.println("Saludando a " + cifra + " animales distintos");
             }
-
-
-
         }.saludar() ;
 
-
+/// Devuelve -> Saludando a 5 animales distintos
     }
 }

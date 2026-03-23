@@ -10,5 +10,6 @@ public class ExpresionLambda {
         };
 
        lamdMsn.mensaje("Lautaro");
+       /// Devuelve -> esto es un mensaje de: Lautaro
     }
 }
